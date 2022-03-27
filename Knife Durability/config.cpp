@@ -23,7 +23,7 @@ class CfgVehicles
 			{
 				class Health
 				{
-					hitpoints=170;
+					hitpoints=170;  // Default: 85
 				};
 			};
 		};
@@ -36,7 +36,7 @@ class CfgVehicles
 			{
 				class Health
 				{
-					hitpoints=130;
+					hitpoints=130;  // Default: 65
 				};
 			};
 		};
@@ -49,7 +49,7 @@ class CfgVehicles
 			{
 				class Health
 				{
-					hitpoints=90;
+					hitpoints=90;  // Default: 45
 				};
 			};
 		};
@@ -62,7 +62,7 @@ class CfgVehicles
 			{
 				class Health
 				{
-					hitpoints=170;
+					hitpoints=170;  // Default: 85
 				};
 			};
 		};
@@ -75,7 +75,7 @@ class CfgVehicles
 			{
 				class Health
 				{
-					hitpoints=130;
+					hitpoints=130;  // Default: 65
 				};
 			};
 		};
@@ -88,7 +88,7 @@ class CfgVehicles
 			{
 				class Health
 				{
-					hitpoints=90;
+					hitpoints=90;  // Default: 45
 				};
 			};
 		};
