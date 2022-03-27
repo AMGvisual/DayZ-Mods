@@ -26,9 +26,7 @@ class CfgVehicles
 	class Clothing_Base;
 	class Bottle_Base;
 	class Transmitter_Base;
-	class FishingRod_Base;
 	class FishingRod_Base_New;
-	class ProxyAttachment_Base;
 	class Pelt_Base;
 	class Container_Base;
 	class LargeGasCanister: Inventory_Base
