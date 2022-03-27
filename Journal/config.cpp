@@ -95,7 +95,7 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"TheRedZone\client\assets\Books\data\book_journal.paa",
+			"TheRedZone\client\assets\Books\data\book_journal.paa",  // MUST CHANGE FILEPATH
 			"TheRedZone\client\assets\Books\data\book_journal.paa",
 			"TheRedZone\client\assets\Books\data\book_journal.paa"
 		};
