@@ -116,23 +116,6 @@ class cfgWeapons
 			"dz\weapons\firearms\B95\data\b95_painted.rvmat"
 		};
 	};
-	class B95_Marcus: B95
-	{
-		descriptionShort="Custom painted and engraved double-barreled break-action rifle loaded with two .308 rounds";
-		scope=2;
-		hiddenSelections[]={"zbytek", "camo"};
-		hiddenSelectionsTextures[]=
-		{
-			"TheRedZone\client\assets\Weapons\Firearms\B95\data\b95_marcus.paa",
-			"TheRedZone\client\assets\Weapons\Firearms\B95\data\b95_marcus.paa",
-			"TheRedZone\client\assets\Weapons\Firearms\B95\data\b95_marcus.paa"
-		};
-		
-		hiddenSelectionsMaterials[]=
-		{
-			"dz\weapons\firearms\B95\data\b95_painted.rvmat"
-		};
-	};
 };
 
 			
