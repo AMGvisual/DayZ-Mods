@@ -12,7 +12,6 @@ modded class PluginRecipesManager
 		RegisterRecipe(new CombineCleaningKit);
 		RegisterRecipe(new CombineEpoxy);
 		RegisterRecipe(new CombineDuctTape);
-		RegisterRecipe(new CombineAntibiotics);
 		RegisterRecipe(new CombineDisinfectantSpray);
 		RegisterRecipe(new CombineDisinfectantAlcohol);
 		RegisterRecipe(new CombineBandages);
