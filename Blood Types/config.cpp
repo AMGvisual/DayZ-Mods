@@ -1,6 +1,6 @@
 class CfgPatches
 {
-	class TRZ_Blood
+	class Blood_Types
 	{
 		units[]=
 		{
