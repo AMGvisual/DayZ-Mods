@@ -15,8 +15,6 @@ class CfgPatches
 class CfgVehicles
 {
 	class Inventory_Base;
-	class Shovel;
-	class Rope;
 	class KitchenKnife: Inventory_Base
 	{
 		class DamageSystem
