@@ -4,7 +4,6 @@
     <!-- ADD TO TYPES.XML  --> 
 	
     <!-- BLOOD TYPES  --> 
- 
     <type name="BloodBagIV_0Positive">
         <lifetime>7200</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
