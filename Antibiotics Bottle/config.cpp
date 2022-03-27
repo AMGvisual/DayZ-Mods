@@ -36,9 +36,9 @@ class CfgVehicles
 		hiddenSelections[]={"zbytek"};
 		hiddenSelectionsTextures[]=
 		{
-			"TheRedZone\client\assets\Medical\data\antibiotics_bottle.paa",
-			"TheRedZone\client\assets\Medical\data\antibiotics_bottle.paa",
-			"TheRedZone\client\assets\Medical\data\antibiotics_bottle.paa"
+			"TheRedZone\client\assets\Medical\data\antibiotics_bottle.paa",  // MUST CHANGE FILEPATH
+			"TheRedZone\client\assets\Medical\data\antibiotics_bottle.paa",  
+			"TheRedZone\client\assets\Medical\data\antibiotics_bottle.paa" 
 		};
 		class DamageSystem
 		{
