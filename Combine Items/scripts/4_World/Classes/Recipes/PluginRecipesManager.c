@@ -16,9 +16,6 @@ modded class PluginRecipesManager
 		RegisterRecipe(new CombineDisinfectantSpray);
 		RegisterRecipe(new CombineDisinfectantAlcohol);
 		RegisterRecipe(new CombineBandages);
-		RegisterRecipe(new CombineCBDGummies);
-		RegisterRecipe(new CombineIndicaGummies);
-		RegisterRecipe(new CombineSativaGummies);
 
     }
 };
