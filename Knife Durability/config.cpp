@@ -15,7 +15,7 @@ class CfgPatches
 class CfgVehicles
 {
 	class Inventory_Base;
-	class KitchenKnife: Inventory_Base
+	class StoneKnife: Inventory_Base
 	{
 		class DamageSystem
 		{
@@ -23,7 +23,7 @@ class CfgVehicles
 			{
 				class Health
 				{
-					hitpoints=170;  // Default: 85
+					hitpoints=90;  // Default: 45
 				};
 			};
 		};
@@ -41,19 +41,6 @@ class CfgVehicles
 			};
 		};
 	};
-	class StoneKnife: Inventory_Base
-	{
-		class DamageSystem
-		{
-			class GlobalHealth
-			{
-				class Health
-				{
-					hitpoints=90;  // Default: 45
-				};
-			};
-		};
-	};
 	class KitchenKnife: Inventory_Base
 	{
 		class DamageSystem
@@ -67,7 +54,7 @@ class CfgVehicles
 			};
 		};
 	};
-	class SteakKnife: Inventory_Base
+	class HuntingKnife: Inventory_Base
 	{
 		class DamageSystem
 		{
@@ -75,12 +62,12 @@ class CfgVehicles
 			{
 				class Health
 				{
-					hitpoints=130;  // Default: 65
+					hitpoints=260;  // Default: 130
 				};
 			};
 		};
 	};
-	class StoneKnife: Inventory_Base
+	class FangeKnife: Inventory_Base
 	{
 		class DamageSystem
 		{
@@ -88,7 +75,33 @@ class CfgVehicles
 			{
 				class Health
 				{
-					hitpoints=90;  // Default: 45
+					hitpoints=260;  // Default: 130
+				};
+			};
+		};
+	};
+	class KukriKnife: Inventory_Base
+	{
+		class DamageSystem
+		{
+			class GlobalHealth
+			{
+				class Health
+				{
+					hitpoints=300;  // Default: 150
+				};
+			};
+		};
+	};
+	class CombatKnife: Inventory_Base
+	{
+		class DamageSystem
+		{
+			class GlobalHealth
+			{
+				class Health
+				{
+					hitpoints=300;  // Default: 150
 				};
 			};
 		};
