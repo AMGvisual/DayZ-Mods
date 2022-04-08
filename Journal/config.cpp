@@ -16,66 +16,7 @@ class CfgPatches
 };
 class CfgVehicles
 {
-	class Book_Base;
 	class Container_Base;
-	class ItemBook: Book_Base
-	{
-		itemSize[]={1,2};
-		quantityShow=0;
-		class DamageSystem
-		{
-			class GlobalHealth
-			{
-				class Health
-				{
-					hitpoints=100;
-					healthLevels[]=
-					{
-						
-						{
-							1,
-							
-							{
-								"DZ\gear\books\Data\book.rvmat"
-							}
-						},
-						
-						{
-							0.69999999,
-							
-							{
-								"DZ\gear\books\Data\book.rvmat"
-							}
-						},
-						
-						{
-							0.5,
-							
-							{
-								"DZ\gear\books\Data\book_damage.rvmat"
-							}
-						},
-						
-						{
-							0.30000001,
-							
-							{
-								"DZ\gear\books\Data\book_damage.rvmat"
-							}
-						},
-						
-						{
-							0,
-							
-							{
-								"DZ\gear\books\Data\book_destruct.rvmat"
-							}
-						}
-					};
-				};
-			};
-		};
-	};
 	class ItemJournal: Container_Base
 	{
 		model="\dz\gear\books\book_kniga.p3d";
