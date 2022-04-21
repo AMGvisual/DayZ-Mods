@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<types>
-    <!-- ADD TO TYPES.XML  -->
+<!-- ADD TO TYPES.XML  -->
 	
     <!-- ANTIBIOTICS BOTTLE  -->
   <type name="AntibioticsBottle">
@@ -15,4 +13,3 @@
     <category name="tools" />
     <usage name="Medic" />
   </type>
-</types>  
