@@ -11,7 +11,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Town"/>
-        
     </type>
     <type name="Fingerless_Gloves_Wool">
         <nominal>7</nominal>
@@ -24,7 +23,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Town"/>
-        
     </type>
     <type name="Fingerless_Gloves_Wool_Grey">
         <nominal>7</nominal>
@@ -37,7 +35,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Town"/>
-        
     </type>
     <type name="Fingerless_Gloves_Wool_Black">
         <nominal>7</nominal>
@@ -50,7 +47,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Town"/>
-        
     </type>
     <type name="High_Knee_Sneakers_Black">
         <nominal>4</nominal>
@@ -63,7 +59,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Town"/>
-        
     </type>
     <type name="Layered_Shirt_Courage">
         <nominal>4</nominal>
@@ -76,7 +71,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Town"/>
-        
     </type>
     <type name="Layered_Shirt_Lily">
         <nominal>4</nominal>
@@ -89,7 +83,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Town"/>
-        
     </type>
     <type name="Sheriff_Badge">
         <nominal>2</nominal>
@@ -102,7 +95,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="containers"/>
         <usage name="Town"/>
-        
     </type>
     <type name="Ragged_Eyepatch">
 		<nominal>0</nominal>
@@ -126,7 +118,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="containers"/>
         <usage name="Town"/>
-        
     </type>
     <type name="Winter_Parka_White">
         <nominal>5</nominal>
@@ -139,7 +130,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="containers"/>
         <usage name="Town"/>
-        
     </type>
     <type name="Winter_Parka_Green">
         <nominal>5</nominal>
@@ -152,7 +142,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="containers"/>
         <usage name="Town"/>
-        
     </type>
 	<type name="HumanSkull">
 		<nominal>0</nominal>
@@ -187,7 +176,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="containers"/>
         <usage name="Town"/>
-        
         <usage name="Hunting"/>
     </type>
         <type name="Eyepatch">
@@ -201,7 +189,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="tools"/>
         <usage name="Town"/>
-        
         <usage name="Coast"/>
     </type>
     <type name="SK8_Sneakers_Black">
@@ -215,7 +202,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="containers"/>
         <usage name="Town"/>
-        
     </type>
     <type name="SK8_Sneakers_FullBlack">
         <nominal>4</nominal>
@@ -228,7 +214,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="containers"/>
         <usage name="Town"/>
-        
     </type>
         <type name="SK8_Sneakers_Blue">
         <nominal>4</nominal>
@@ -241,7 +226,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="containers"/>
         <usage name="Town"/>
-        
     </type>
     <type name="Round_Glasses">
         <nominal>1</nominal>
@@ -254,7 +238,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="containers"/>
         <usage name="Town"/>
-        
     </type>
     <type name="Round_Glasses_Black">
         <nominal>1</nominal>
@@ -267,7 +250,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="containers"/>
         <usage name="Town"/>
-        
     </type>
         <type name="Skinny_Jeans_Black">
         <nominal>10</nominal>
@@ -280,7 +262,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="containers"/>
         <usage name="Town"/>
-        
     </type>
     <type name="Skinny_Jeans_Blue">
         <nominal>10</nominal>
@@ -293,7 +274,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="containers"/>
         <usage name="Town"/>
-        
     </type>
     <type name="Tactical_Leg_Holster_Black">
         <nominal>10</nominal>
