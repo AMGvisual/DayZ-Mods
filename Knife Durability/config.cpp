@@ -15,6 +15,19 @@ class CfgPatches
 class CfgVehicles
 {
 	class Inventory_Base;
+	class BoneKnife: Inventory_Base
+	{
+		class DamageSystem
+		{
+			class GlobalHealth
+			{
+				class Health
+				{
+					hitpoints=90;  // Default: 45
+				};
+			};
+		};
+	};
 	class StoneKnife: Inventory_Base
 	{
 		class DamageSystem
