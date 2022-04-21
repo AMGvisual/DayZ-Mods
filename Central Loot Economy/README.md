@@ -1,1 +1,1 @@
-Types.xml & cfgspawnabletypes.xml files for various different DayZ mods
+Loot economy files (types.xml & cfgspawnabletypes.xml) for various DayZ mods
