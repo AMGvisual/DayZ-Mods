@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+
+<spawnabletypes>
+	<damage min="0.3" max="0.7" />
+	
+	
+	<type name="TRZ_MetalTin">
+		<hoarder />
+	</type>
+	<type name="TRZ_ImprovisedTentPitched">
+		<hoarder />
+	</type>
+	<type name="MoreDoorSafe">
+		<hoarder />
+	</type>
+	<type name="JournalPlain">
+		<hoarder />
+	</type>
+	<type name="JournalSpades">
+		<hoarder />
+	</type>
+	<type name="TRZ_TanningRack">
+		<hoarder />
+	</type>
+
+
+	<!-- TRZ ZOMBIES -->
+	
+	
+    <type name="ZmbM_BloodySoldier">
+        <cargo preset="toolsmilitary" />
+        <cargo preset="ammomilitary" />
+        <attachments preset="headsRU" />
+        <attachments preset="vestsRU" />
+    </type>
+    <type name="ZmbM_BloodySoldier2">
+        <cargo preset="toolsmilitary" />
+        <cargo preset="ammomilitary" />
+        <attachments preset="headsRU" />
+        <attachments preset="vestsRU" />
+    </type>	
+    <type name="ZmbM_BloodyPatientMale">
+        <cargo preset="toolsmedic" />
+    </type>
+    <type name="ZmbM_BloodyPatientFemale">
+        <cargo preset="toolsmedic" />
+    </type>
+	
+	
+	
+	<!-- TRZ SMOKING -->
+		
+	<type name="TRZ_CigarettePack_Merkur">
+        <cargo chance="1">
+        <item name="TRZ_Cigarette" />
+        </cargo>
+		<cargo chance="0.50">
+            <item name="TRZ_PetrolLighter" />
+        </cargo>
+	</type>
+	<type name="TRZ_CigarettePack_Chernamorka">
+        <cargo chance="1">
+            <item name="TRZ_Cigarette" />
+        </cargo>
+		<cargo chance="0.50">
+            <item name="TRZ_PetrolLighter_Green" />
+        </cargo>
+	</type>
+	<type name="TRZ_CigarettePack_Partyzanka">
+        <cargo chance="1">
+        <item name="TRZ_Cigarette" />
+        </cargo>
+		<cargo chance="0.50">
+            <item name="TRZ_PetrolLighter_Red" />
+        </cargo>
+	</type>
+	<type name="PersonalRadio">
+		<attachments chance="0.30">
+			<item name="Battery9V" chance="1.00" />
+		</attachments>
+	</type>
+	
+	
+	
+	
+</spawnabletypes>

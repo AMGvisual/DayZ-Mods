@@ -1,0 +1,525 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+
+<spawnabletypes>
+	<damage min="0.3" max="0.7" />
+	
+	
+	<type name="FP4_Military_Case">
+		<hoarder />
+	</type>
+
+<type name="CS5">
+<attachments chance="1.00">
+<item name="M4_OEBttstck" chance="1.00" />
+</attachments>
+<attachments chance="1.00">
+<item name="FalconOptic" chance="1.00" />
+</attachments>
+<attachments chance="0.30">
+<item name="Mag_CS5_10rnd" chance="1.00" />
+</attachments>
+</type>
+
+<type name="DDM">
+<attachments chance="1.00">
+<item name="M4_OEBttstck" chance="1.00" />
+</attachments>
+<attachments chance="1.00">
+<item name="M4_PlasticHndgrd" chance="1.00" />
+</attachments>
+<attachments chance="1.00">
+<item name="M4_CarryHandleOptic" chance="1.00" />
+</attachments>
+<attachments chance="0.30">
+<item name="Mag_STANAG_30Rnd" chance="1.00" />
+</attachments>
+</type>
+<type name="FP4_AK101_Brown">
+<attachments chance="1.00">
+<item name="Mag_FP4_AK101_30Rnd" chance="1.00" />
+</attachments>
+<attachments chance="1.00">
+<item name="AK_Wood_insulating_Hndgrd" chance="1.00" />
+</attachments>
+<attachments chance="1.00">
+<item name="AK_WoodSteel_Hndgrd" chance="1.00" />
+</attachments>
+</type>
+<type name="FP4_AK101_Blue">
+<attachments chance="1.00">
+<item name="Mag_FP4_AK101_30Rnd" chance="1.00" />
+</attachments>
+<attachments chance="1.00">
+<item name="AK_Wood_insulating_Hndgrd" chance="1.00" />
+</attachments>
+<attachments chance="1.00">
+<item name="AK_WoodSteel_Hndgrd" chance="1.00" />
+</attachments>
+</type>
+<type name="FP4_AK101_red">
+<attachments chance="1.00">
+<item name="Mag_FP4_AK101_30Rnd" chance="1.00" />
+</attachments>
+<attachments chance="1.00">
+<item name="AK_Wood_insulating_Hndgrd" chance="1.00" />
+</attachments>
+<attachments chance="1.00">
+<item name="AK_WoodSteel_Hndgrd" chance="1.00" />
+</attachments>
+</type>
+<type name="FP4_AKS74U_Brown">
+<attachments chance="1.00">
+<item name="Mag_AK74UM_30Rnd" chance="1.00" />
+</attachments>
+<attachments chance="1.00">
+<item name="AK_Wood_insulating_Hndgrd" chance="1.00" />
+</attachments>
+<attachments chance="1.00">
+<item name="AK_WoodSteel_Hndgrd" chance="1.00" />
+</attachments>
+</type>
+<type name="FP4_AKS74U_Blue">
+<attachments chance="1.00">
+<item name="Mag_AK74UM_30Rnd" chance="1.00" />
+</attachments>
+<attachments chance="1.00">
+<item name="AK_Wood_insulating_Hndgrd" chance="1.00" />
+</attachments>
+<attachments chance="1.00">
+<item name="AK_WoodSteel_Hndgrd" chance="1.00" />
+</attachments>
+</type>
+<type name="FP4_AKS74U_Red">
+<attachments chance="1.00">
+<item name="Mag_AK74UM_30Rnd" chance="1.00" />
+</attachments>
+<attachments chance="1.00">
+<item name="AK_Wood_insulating_Hndgrd" chance="1.00" />
+</attachments>
+<attachments chance="1.00">
+<item name="AK_WoodSteel_Hndgrd" chance="1.00" />
+</attachments>
+</type>
+<type name="FP4_AKS74U">
+<attachments chance="1.00">
+<item name="Mag_AK74UM_30Rnd" chance="1.00" />
+</attachments>
+<attachments chance="1.00">
+<item name="AK_Wood_insulating_Hndgrd" chance="1.00" />
+</attachments>
+<attachments chance="1.00">
+<item name="AK_WoodSteel_Hndgrd" chance="1.00" />
+</attachments>
+</type>
+<type name="FP4_AK74_Brown">
+<attachments chance="1.00">
+<item name="Mag_AK74UM_30Rnd" chance="1.00" />
+</attachments>
+<attachments chance="1.00">
+<item name="AK_Wood_insulating_Hndgrd" chance="1.00" />
+</attachments>
+<attachments chance="1.00">
+<item name="AK_WoodSteel_Hndgrd" chance="1.00" />
+</attachments>
+</type>
+<type name="FP4_AK74_Blue">
+<attachments chance="1.00">
+<item name="Mag_AK74UM_30Rnd" chance="1.00" />
+</attachments>
+<attachments chance="1.00">
+<item name="AK_Wood_insulating_Hndgrd" chance="1.00" />
+</attachments>
+<attachments chance="1.00">
+<item name="AK_WoodSteel_Hndgrd" chance="1.00" />
+</attachments>
+</type>
+<type name="FP4_AK74_Red">
+<attachments chance="1.00">
+<item name="Mag_AK74UM_30Rnd" chance="1.00" />
+</attachments>
+<attachments chance="1.00">
+<item name="AK_Wood_insulating_Hndgrd" chance="1.00" />
+</attachments>
+<attachments chance="1.00">
+<item name="AK_WoodSteel_Hndgrd" chance="1.00" />
+</attachments>
+</type>
+<type name="FP4_AKS74U">
+<attachments chance="1.00">
+<item name="Mag_AK74UM_30Rnd" chance="1.00" />
+</attachments>
+<attachments chance="1.00">
+<item name="AK_Wood_insulating_Hndgrd" chance="1.00" />
+</attachments>
+<attachments chance="1.00">
+<item name="AK_WoodSteel_Hndgrd" chance="1.00" />
+</attachments>
+</type>
+<type name="FP4_AKS74U_Black">
+<attachments chance="1.00">
+<item name="Mag_AK74UM_30Rnd" chance="1.00" />
+</attachments>
+<attachments chance="1.00">
+<item name="AK_Wood_insulating_Hndgrd" chance="1.00" />
+</attachments>
+<attachments chance="1.00">
+<item name="AK_WoodSteel_Hndgrd" chance="1.00" />
+</attachments>
+</type>
+<type name="FP4_AKS74U_Green">
+<attachments chance="1.00">
+<item name="Mag_AK74UM_30Rnd" chance="1.00" />
+</attachments>
+<attachments chance="1.00">
+<item name="AK_Wood_insulating_Hndgrd" chance="1.00" />
+</attachments>
+<attachments chance="1.00">
+<item name="AK_WoodSteel_Hndgrd" chance="1.00" />
+</attachments>
+</type>
+<type name="FP4_AK74">
+<attachments chance="1.00">
+<item name="Mag_AK74UM_30Rnd" chance="1.00" />
+</attachments>
+<attachments chance="1.00">
+<item name="AK_Wood_insulating_Hndgrd" chance="1.00" />
+</attachments>
+<attachments chance="1.00">
+<item name="AK_WoodSteel_Hndgrd" chance="1.00" />
+</attachments>
+</type>
+<type name="FP4_AK74_Black">
+<attachments chance="1.00">
+<item name="Mag_AK74UM_30Rnd" chance="1.00" />
+</attachments>
+<attachments chance="1.00">
+<item name="AK_Wood_insulating_Hndgrd" chance="1.00" />
+</attachments>
+<attachments chance="1.00">
+<item name="AK_WoodSteel_Hndgrd" chance="1.00" />
+</attachments>
+</type>
+<type name="FP4_AK74_Green">
+<attachments chance="1.00">
+<item name="Mag_AK74UM_30Rnd" chance="1.00" />
+</attachments>
+<attachments chance="1.00">
+<item name="AK_Wood_insulating_Hndgrd" chance="1.00" />
+</attachments>
+<attachments chance="1.00">
+<item name="AK_WoodSteel_Hndgrd" chance="1.00" />
+</attachments>
+</type>
+<type name="FP4_AK101">
+<attachments chance="1.00">
+<item name="Mag_FP4_AK101_30Rnd" chance="1.00" />
+</attachments>
+<attachments chance="1.00">
+<item name="AK_Wood_insulating_Hndgrd" chance="1.00" />
+</attachments>
+<attachments chance="1.00">
+<item name="AK_WoodSteel_Hndgrd" chance="1.00" />
+</attachments>
+</type>
+<type name="FP4_AK101_Black">
+<attachments chance="1.00">
+<item name="Mag_FP4_AK101_30Rnd" chance="1.00" />
+</attachments>
+<attachments chance="1.00">
+<item name="AK_Wood_insulating_Hndgrd" chance="1.00" />
+</attachments>
+<attachments chance="1.00">
+<item name="AK_WoodSteel_Hndgrd" chance="1.00" />
+</attachments>
+</type>
+<type name="FP4_AK101_Green">
+<attachments chance="1.00">
+<item name="Mag_FP4_AK101_30Rnd" chance="1.00" />
+</attachments>
+<attachments chance="1.00">
+<item name="AK_Wood_insulating_Hndgrd" chance="1.00" />
+</attachments>
+<attachments chance="1.00">
+<item name="AK_WoodSteel_Hndgrd" chance="1.00" />
+</attachments>
+</type>
+<type name="sg550">
+<attachments chance="1.00">
+<item name="Mag_sg550_30Rnd" chance="1.00" />
+</attachments>
+</type>
+<type name="SG552">
+<attachments chance="1.00">
+<item name="Mag_sg552_30Rnd" chance="1.00" />
+</attachments>
+</type>
+<type name="AK74UM">
+<attachments chance="1.00">
+<item name="Mag_AK74UM_30Rnd" chance="1.00" />
+</attachments>
+</type>
+<type name="RPK">
+<attachments chance="1.00">
+<item name="Mag_RPK_40Rnd" chance="1.00" />
+</attachments>
+</type>
+<type name="RPK_camo">
+<attachments chance="1.00">
+<item name="Mag_RPK_40Rnd" chance="1.00" />
+</attachments>
+</type>
+<type name="KAC">
+<attachments chance="1.00">
+<item name="mag_kac_30rnd" chance="1.00" />
+</attachments>
+</type>
+<type name="Kac_HB">
+<attachments chance="1.00">
+<item name="mag_kac_30rnd" chance="1.00" />
+</attachments>
+</type>
+<type name="Kac_RedLine">
+<attachments chance="1.00">
+<item name="mag_kac_30rnd" chance="1.00" />
+</attachments>
+</type>
+<type name="ACE23">
+<attachments chance="1.00">
+<item name="Mag_ace23_30rnd" chance="1.00" />
+</attachments>
+</type>
+<type name="ace23_desert">
+<attachments chance="1.00">
+<item name="Mag_ace23_30rnd" chance="1.00" />
+</attachments>
+</type>
+<type name="ace23_WhiteSpray">
+<attachments chance="1.00">
+<item name="Mag_ace23_30rnd" chance="1.00" />
+</attachments>
+</type>
+<type name="SCAR_OLD">
+<attachments chance="1.00">
+<item name="Mag_Scar_20rnd" chance="1.00" />
+</attachments>
+</type>
+<type name="SCAR">
+<attachments chance="1.00">
+<item name="Mag_Scar_20rnd" chance="1.00" />
+</attachments>
+</type>
+<type name="SCAR_Black">
+<attachments chance="1.00">
+<item name="Mag_Scar_20rnd" chance="1.00" />
+</attachments>
+</type>
+<type name="SCAR_ASIMOV">
+<attachments chance="1.00">
+<item name="Mag_Scar_20rnd" chance="1.00" />
+</attachments>
+</type>
+<type name="SCAR_HB">
+<attachments chance="1.00">
+<item name="Mag_Scar_20rnd" chance="1.00" />
+</attachments>
+</type>
+<type name="AS_VAL_WhiteSpray">
+<attachments chance="1.00">
+<item name="mag_kac_30rnd" chance="1.00" />
+</attachments>
+</type>
+<type name="AS_VAL">
+<attachments chance="1.00">
+<item name="Mag_VAL_20Rnd" chance="1.00" />
+</attachments>
+</type>
+<type name="AS_VAL_Desert">
+<attachments chance="1.00">
+<item name="Mag_VAL_20Rnd" chance="1.00" />
+</attachments>
+</type>
+<type name="AS_VAL_green">
+<attachments chance="1.00">
+<item name="Mag_VAL_20Rnd" chance="1.00" />
+</attachments>
+</type>
+<type name="M1Carbine">
+<attachments chance="1.00">
+<item name="Mag_M1_15Rnds" chance="1.00" />
+</attachments>
+</type>
+<type name="PB1967">
+<attachments chance="1.00">
+<item name="Mag_MakarovPB_8Rnd " chance="1.00" />
+</attachments>
+</type>
+<type name="COLT_1911">
+<attachments chance="1.00">
+<item name="M_1911_7Rnd" chance="1.00" />
+</attachments>
+</type>
+<type name="COLT_1911_Desert">
+<attachments chance="1.00">
+<item name="M_1911_7Rnd" chance="1.00" />
+</attachments>
+</type>
+<type name="COLT_1911_Camo">
+<attachments chance="1.00">
+<item name="M_1911_7Rnd" chance="1.00" />
+</attachments>
+</type>
+<type name="COLT_1911_Ranger">
+<attachments chance="1.00">
+<item name="M_1911_7Rnd" chance="1.00" />
+</attachments>
+</type>
+<type name="COLT_1911_Fury">
+<attachments chance="1.00">
+<item name="M_1911_7Rnd" chance="1.00" />
+</attachments>
+</type>
+<type name="COLT_1911_red">
+<attachments chance="1.00">
+<item name="M_1911_7Rnd" chance="1.00" />
+</attachments>
+</type>
+<type name="GSH18">
+<attachments chance="1.00">
+<item name="Mag_GSH18_18Rnd" chance="1.00" />
+</attachments>
+</type>
+<type name="M1935">
+<attachments chance="1.00">
+<item name="Mag_m1935_13Rnd" chance="1.00" />
+</attachments>
+</type>
+<type name="p220">
+<attachments chance="1.00">
+<item name="mag_p220_8rnd" chance="1.00" />
+</attachments>
+</type>
+<type name="NailgGun">
+<attachments chance="1.00">
+<item name="Mag_Nailgun_50n" chance="1.00" />
+</attachments>
+</type>
+<type name="glock_18">
+<attachments chance="1.00">
+<item name="Mag_glock_18_17Rnd" chance="1.00" />
+</attachments>
+</type>
+<type name="P99">
+<attachments chance="1.00">
+<item name="Mag_pp99_16Rnd" chance="1.00" />
+</attachments>
+</type>
+<type name="SR1M">
+<attachments chance="1.00">
+<item name="Mag_SR1M_18Rnd" chance="1.00" />
+</attachments>
+</type>
+<type name="M9_Berreta">
+<attachments chance="1.00">
+<item name="Mag_m9_15Rnd" chance="1.00" />
+</attachments>
+</type>
+<type name="Pistol_Tokarev">
+<attachments chance="1.00">
+<item name="Mag_tokarev_8Rnd" chance="1.00" />
+</attachments>
+</type>
+<type name="Pistol_Tokarev_Old">
+<attachments chance="1.00">
+<item name="Mag_tokarev_8Rnd" chance="1.00" />
+</attachments>
+</type>
+<type name="Saiga12">
+<attachments chance="1.00">
+<item name="Mag_Saiga_Drum20Rnd" chance="1.00" />
+</attachments>
+</type>
+<type name="VSK94">
+<attachments chance="1.00">
+<item name="Mag_VSK94_20Rnd" chance="1.00" />
+</attachments>
+</type>
+<type name="SVD_1963">
+<attachments chance="1.00">
+<item name="mag_svt_10rnd" chance="1.00" />
+</attachments>
+</type>
+<type name="Vintorez_veteran">
+<attachments chance="1.00">
+<item name="mag_vss_10rnds" chance="1.00" />
+</attachments>
+</type>
+<type name="Vintorez">
+<attachments chance="1.00">
+<item name="mag_vss_10rnds" chance="1.00" />
+</attachments>
+</type>
+<type name="Vintorez_Old">
+<attachments chance="1.00">
+<item name="mag_vss_10rnds" chance="1.00" />
+</attachments>
+</type>
+<type name="PSG1">
+<attachments chance="1.00">
+<item name="Mag_psg_5Rnd" chance="1.00" />
+</attachments>
+</type>
+<type name="SR2">
+<attachments chance="1.00">
+<item name="Mag_SR2_30Rnd" chance="1.00" />
+</attachments>
+</type>
+<type name="SR2_black">
+<attachments chance="1.00">
+<item name="Mag_SR2_30Rnd" chance="1.00" />
+</attachments>
+</type>
+<type name="MAC10">
+<attachments chance="1.00">
+<item name="Mag_mac10_30Rnd" chance="1.00" />
+</attachments>
+</type>
+<type name="MAC10_desert">
+<attachments chance="1.00">
+<item name="Mag_mac10_30Rnd" chance="1.00" />
+</attachments>
+</type>
+<type name="CBJ">
+<attachments chance="1.00">
+<item name="Mag_CBJ_50Rnd" chance="1.00" />
+</attachments>
+</type>
+<type name="PP19_01">
+<attachments chance="1.00">
+<item name="Mag_pp19_30Rnd" chance="1.00" />
+</attachments>
+</type>
+<type name="m82">
+<attachments chance="1.00">
+<item name="Mag_m82_10Rnd" chance="1.00" />
+</attachments>
+</type>
+<type name="m82_308win">
+<attachments chance="1.00">
+<item name="Mag_m82_10Rnd308" chance="1.00" />
+</attachments>
+</type>
+	<type name="AN94">
+		<attachments chance="1.00">
+			<item name="AN94_PlastickBttstck" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="AEK971">
+		<attachments chance="1.00">
+			<item name="AEK_Buttstock" chance="1.00" />
+		</attachments>
+	</type>
+	
+	
+	
+	
+</spawnabletypes>
