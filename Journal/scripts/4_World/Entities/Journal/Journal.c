@@ -1,6 +1,6 @@
 class ItemJournal extends Container_Base
 {
-	ref array<string> m_AllowedCargo = {"TRZ_Playingcard_Base", "TRZ_Photograph_Base", "Paper", "WrittenNote"};  // DEFINE WHICH ITEMS CAN BE STORED IN JOURNAL
+	ref array<string> m_AllowedCargo = {"Paper", "WrittenNote"};  // DEFINE WHICH ITEMS CAN BE STORED IN JOURNAL
 	ref array<string> m_SpecialNotAllowedCargo = {"Weapon_Base", "Bottle_Base", "Item_Base", "Edible_Base"};
 	
 	override bool CanReceiveItemIntoCargo (EntityAI item)
