@@ -1132,10 +1132,10 @@
     <usage name="Village" />
   </type>
   <type name="FS_SpecialFemale_Black">
-    <nominal>4</nominal>
+    <nominal>0</nominal>
     <lifetime>2700</lifetime>
     <restock>0</restock>
-    <min>2</min>
+    <min>0</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
