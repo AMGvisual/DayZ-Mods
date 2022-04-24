@@ -791,10 +791,10 @@
     <usage name="Military" />
   </type>
   <type name="MassFedora_Black">
-    <nominal>4</nominal>
+    <nominal>0</nominal>
     <lifetime>1800</lifetime>
     <restock>0</restock>
-    <min>2</min>
+    <min>0</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -805,10 +805,10 @@
     <usage name="Village" />
   </type>
   <type name="MassFedora_White">
-    <nominal>4</nominal>
+    <nominal>0</nominal>
     <lifetime>1800</lifetime>
     <restock>0</restock>
-    <min>2</min>
+    <min>0</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -819,10 +819,10 @@
     <usage name="Village" />
   </type>
   <type name="MassFedora_Pink">
-    <nominal>4</nominal>
+    <nominal>0</nominal>
     <lifetime>1800</lifetime>
     <restock>0</restock>
-    <min>2</min>
+    <min>0</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -833,10 +833,10 @@
     <usage name="Village" />
   </type>
   <type name="MassFedora_Yellow">
-    <nominal>4</nominal>
+    <nominal>0</nominal>
     <lifetime>1800</lifetime>
     <restock>0</restock>
-    <min>2</min>
+    <min>0</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -847,10 +847,10 @@
     <usage name="Village" />
   </type>
   <type name="MassFedora_Red">
-    <nominal>4</nominal>
+    <nominal>0</nominal>
     <lifetime>1800</lifetime>
     <restock>0</restock>
-    <min>2</min>
+    <min>0</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -861,10 +861,10 @@
     <usage name="Village" />
   </type>
   <type name="MassFedora_Blue">
-    <nominal>4</nominal>
+    <nominal>0</nominal>
     <lifetime>1800</lifetime>
     <restock>0</restock>
-    <min>2</min>
+    <min>0</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -875,10 +875,10 @@
     <usage name="Village" />
   </type>
   <type name="MassFedora_Grey">
-    <nominal>4</nominal>
+    <nominal>0</nominal>
     <lifetime>1800</lifetime>
     <restock>0</restock>
-    <min>2</min>
+    <min>0</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -889,10 +889,10 @@
     <usage name="Village" />
   </type>
   <type name="MassFedora_Brown">
-    <nominal>4</nominal>
+    <nominal>0</nominal>
     <lifetime>1800</lifetime>
     <restock>0</restock>
-    <min>2</min>
+    <min>0</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -903,10 +903,10 @@
     <usage name="Village" />
   </type>
   <type name="MassFedora_Beige">
-    <nominal>4</nominal>
+    <nominal>0</nominal>
     <lifetime>1800</lifetime>
     <restock>0</restock>
-    <min>2</min>
+    <min>0</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -917,10 +917,10 @@
     <usage name="Village" />
   </type>
   <type name="MassCatEars">
-    <nominal>4</nominal>
+    <nominal>0</nominal>
     <lifetime>1800</lifetime>
     <restock>0</restock>
-    <min>2</min>
+    <min>0</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
