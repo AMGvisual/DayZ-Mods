@@ -25,10 +25,14 @@ class CfgVehicles
 	class Switchable_Base;
 	class Clothing_Base;
 	class Bottle_Base;
+	class Edible_Base;
 	class Transmitter_Base;
+	class FishingRod_Base;
 	class FishingRod_Base_New;
+	class ProxyAttachment_Base;
 	class Pelt_Base;
 	class Container_Base;
+	class TentBase;
 	class LargeGasCanister: Inventory_Base
 	{
 		itemSize[]={3,4};
@@ -43,11 +47,16 @@ class CfgVehicles
 	};
 	class Tripod: Inventory_Base
 	{
-		itemSize[]={1,8};
+		itemSize[]={1,7};
+	};
+	class CookingStand: Inventory_Base
+	{
+		itemSize[]={1,7};
 	};
 	class Binoculars: ItemOptics
 	{
 		itemSize[]={3,2};
+		weight=245;
 	};
 	class Flashlight: Inventory_Base
 	{
@@ -65,21 +74,15 @@ class CfgVehicles
 	{
 		itemSize[]={1,2};
 	};
-	class BurlapSack: Inventory_Base
-	{
-		itemSize[]={2,2};
-	};
-	class BurlapStrip: Inventory_Base
-	{
-		itemSize[]={1,2};
-	};
-	class Netting: Inventory_Base
-	{
-		itemSize[]={1,3};
-	};
 	class Pliers: Inventory_Base
 	{
 		itemSize[]={1,2};
+	};
+	class LeatherSewingKit: Inventory_Base
+	{
+		itemSize[]={3,2};
+		displayName="Leather Kit";
+		descriptionShort="A kit containing all the necessary tools used for tanning and stitching leather as well as patching various items";
 	};
 	class ImprovisedFishingRod: FishingRod_Base_New
 	{
@@ -100,6 +103,7 @@ class CfgVehicles
 	class PersonalRadio: Transmitter_Base
 	{
 		itemSize[]={1,2};
+		weight=0.05;
 	};
 	class Bark_ColorBase: Inventory_Base
 	{
@@ -109,222 +113,6 @@ class CfgVehicles
 	{
 		itemSize[]={1,3};
 	};
-	class Armband_ColorBase: Clothing_Base
-	{
-		itemSize[]={2,1};
-	};
-	class CargoPants_ColorBase: Clothing_Base
-	{
-		itemSize[]={3,2};
-	};
-	class TTSKOPants: Clothing_Base
-	{
-		itemSize[]={3,2};
-	};
-	class HunterPants_ColorBase: Clothing_Base
-	{
-		itemSize[]={3,2};
-	};
-	class GorkaPants_ColorBase: Clothing_Base
-	{
-		itemSize[]={3,2};
-	};
-	class PolicePantsOrel: Clothing_Base
-	{
-		itemSize[]={3,2};
-	};
-	class ParamedicPants_ColorBase: Clothing_Base
-	{
-		itemSize[]={3,2};
-	};
-	class FirefightersPants_ColorBase: Clothing_Base
-	{
-		itemSize[]={3,2};
-	};
-	class LeatherPants_ColorBase: Clothing_Base
-	{
-		itemSize[]={3,2};
-	};
-	class USMCPants_ColorBase: Clothing_Base
-	{
-		itemSize[]={3,2};
-	};
-	class BDUPants: Clothing_Base
-	{
-		itemSize[]={3,2};
-	};
-	class BeanieHat_ColorBase: Clothing_Base
-	{
-		itemSize[]={2,2};
-	};
-	class BaseballCap_ColorBase: Clothing_Base
-	{
-		itemSize[]={2,2};
-	};
-	class Shirt_ColorBase: Clothing_Base
-	{
-		itemSize[]={2,2};
-	};
-	class TShirt_ColorBase: Clothing_Base
-	{
-		itemSize[]={2,2};
-	};
-	class Hoodie_ColorBase: Clothing_Base
-	{
-		itemSize[]={3,2};
-	};
-	class TacticalShirt_ColorBase: Clothing_Base
-	{
-		itemSize[]={3,2};
-	};
-	class HikingJacket_ColorBase: Clothing_Base
-	{
-		itemSize[]={3,3};
-	};
-	class M65Jacket_ColorBase: Clothing_Base
-	{
-		itemSize[]={3,3};
-	};
-	class TTsKOJacket_ColorBase: Clothing_Base
-	{
-		itemSize[]={3,3};
-	};
-	class GorkaEJacket_ColorBase: Clothing_Base
-	{
-		itemSize[]={3,3};
-	};
-	class RidersJacket_ColorBase: Clothing_Base
-	{
-		itemSize[]={3,3};
-	};
-	class WoolCoat_ColorBase: Clothing_Base
-	{
-		itemSize[]={3,3};
-	};
-	class PoliceJacket: Clothing_Base
-	{
-		itemSize[]={3,3};
-	};
-	class PoliceJacketOrel: Clothing_Base
-	{
-		itemSize[]={3,3};
-	};
-	class ParamedicJacket_ColorBase: Clothing_Base
-	{
-		itemSize[]={3,3};
-	};
-	class FirefighterJacket_ColorBase: Clothing_Base
-	{
-		itemSize[]={3,3};
-	};
-	class QuiltedJacket_ColorBase: Clothing_Base
-	{
-		itemSize[]={3,3};
-	};
-	class BomberJacket_ColorBase: Clothing_Base
-	{
-		itemSize[]={3,3};
-	};
-	class HuntingJacket_ColorBase: Clothing_Base
-	{
-		itemSize[]={3,3};
-	};
-	class MedicalScrubsShirt_ColorBase: Clothing_Base
-	{
-		itemSize[]={2,2};
-	};
-	class Skirt_ColorBase: Clothing_Base
-	{
-		itemSize[]={2,1};
-	};
-	class LabCoat: Clothing_Base
-	{
-		itemSize[]={2,2};
-	};
-	class NurseDress_ColorBase: Clothing_Base
-	{
-		itemSize[]={2,2};
-	};
-	class MiniDress_ColorBase: Clothing_Base
-	{
-		itemSize[]={2,2};
-	};
-	class USMCJacket_ColorBase: Clothing_Base
-	{
-		itemSize[]={3,3};
-	};
-	class Blouse_ColorBase: Clothing_Base
-	{
-		itemSize[]={2,2};
-	};
-	class NBCHoodBase: Clothing_Base
-	{
-		itemSize[]={2,2};
-	};
-	class NBCJacketBase: Clothing_Base
-	{
-		itemSize[]={2,3};
-	};
-	class NBCPantsBase: Clothing_Base
-	{
-		itemSize[]={2,3};
-	};
-	class NBCBootsBase: Clothing_Base
-	{
-		itemSize[]={2,2};
-	};
-	class NBCGloves_ColorBase: Clothing_Base
-	{
-		itemSize[]={2,2};
-	};
-	class DenimJacket: Clothing_Base
-	{
-		itemSize[]={3,3};
-	};
-	class TelnyashkaShirt: Clothing_Base
-	{
-		itemSize[]={2,2};
-	};
-	class JumpsuitJacket_ColorBase: Clothing_Base
-	{
-		itemSize[]={3,3};
-	};
-	class BDUJacket: Clothing_Base
-	{
-		itemSize[]={3,3};
-	};
-	class Bandana_ColorBase: Clothing_Base
-	{
-		itemSize[]={2,1};
-	};
-	class BandanaHead_ColorBase: Clothing_Base
-	{
-		itemSize[]={2,1};
-	};
-	class BandanaMask_ColorBase: Clothing_Base
-	{
-		itemSize[]={2,1};
-	};
-	class ZmijovkaCap_ColorBase: Clothing_Base
-	{
-		itemSize[]={2,2};
-	};
-	class PrisonerCap: Clothing_Base
-	{
-		itemSize[]={2,2};
-	};
-	class MedicalScrubsHat_ColorBase: Clothing_Base
-	{
-		itemSize[]={2,1};
-	};
-	class BalaclavaMask_ColorBase: Clothing_Base
-	{
-		itemSize[]={2,2};
-	};
-	class Balaclava3Holes_ColorBase: Clothing_Base
-	{
-		itemSize[]={2,2};
-	};
 	class GasMask: Clothing_Base
 	{
 		itemSize[]={3,3};
@@ -333,21 +121,9 @@ class CfgVehicles
 	{
 		itemSize[]={3,3};
 	};
-	class SurgicalMask: Clothing_Base
-	{
-		itemSize[]={2,1};
-	};
-	class HikingBoots_ColorBase: Clothing_Base
-	{
-		itemSize[]={4,3};
-	};
-	class HikingBootsLow_ColorBase: Clothing_Base
-	{
-		itemSize[]={4,3};
-	};
 	class PlateCarrierHolster: Clothing_Base
 	{
-		itemSize[]={3,2};
+		itemSize[]={2,2};
 	};
 	class PlateCarrierPouches: Clothing_Base
 	{
@@ -389,6 +165,10 @@ class CfgVehicles
 	{
 		itemSize[]={7,2};
 	};
+	class ShelterBase: TentBase
+	{
+		itemsCargoSize[]={10,20};
+	};	
 	class BearPelt: Pelt_Base
 	{
 		itemSize[]={7,4};
@@ -415,5 +195,51 @@ class CfgVehicles
 	{
 		itemSize[]={3,3};
 		itemsCargoSize[]={8,4};
+	};
+	class Blowtorch: Inventory_Base
+	{
+		itemSize[]={2,3};
+	};
+	class TireRepairKit: Inventory_Base
+	{
+		itemSize[]={2,1};
+	};
+	class TetracyclineAntibiotics: Edible_Base
+	{
+		scope=2;
+		displayName="Tetracycline Antibiotics";
+		descriptionShort="Broad spectrum antibiotics that can be used to treat various infections and diseases";
+		varQuantityInit=12;
+		varQuantityMin=0;
+		varQuantityMax=30;
+		varStackMax=30;
+		canBeSplit=1;
+	};
+	class CharcoalTablets: Edible_Base
+	{
+		scope=2;
+		varQuantityInit=12;
+		varQuantityMin=0;
+		varQuantityMax=30;
+		varStackMax=30;
+		canBeSplit=1;
+	};
+	class PurificationTablets: Edible_Base
+	{
+		scope=2;
+		varQuantityInit=12;
+		varQuantityMin=0;
+		varQuantityMax=30;
+		varStackMax=30;
+		canBeSplit=1;
+	};
+	class PainkillerTablets: Edible_Base
+	{
+		scope=2;
+		varQuantityInit=12;
+		varQuantityMin=0;
+		varQuantityMax=30;
+		varStackMax=30;
+		canBeSplit=1;
 	};
 };
