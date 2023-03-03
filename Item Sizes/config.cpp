@@ -30,7 +30,6 @@ class CfgVehicles
 	class FishingRod_Base;
 	class FishingRod_Base_New;
 	class ProxyAttachment_Base;
-	class Pelt_Base;
 	class Container_Base;
 	class TentBase;
 	class LargeGasCanister: Inventory_Base
@@ -169,10 +168,6 @@ class CfgVehicles
 	{
 		itemsCargoSize[]={10,20};
 	};	
-	class BearPelt: Pelt_Base
-	{
-		itemSize[]={7,4};
-	};
 	class Rangefinder: ItemOptics
 	{
 		inventorySlot[]=
@@ -204,7 +199,7 @@ class CfgVehicles
 	{
 		itemSize[]={2,1};
 	};
-	class TetracyclineAntibiotics: Edible_Base
+	class TetracyclineAntibiotics: Edible_Base // MAKES ANTIBIOTICS STACKABLE
 	{
 		scope=2;
 		displayName="Tetracycline Antibiotics";
@@ -215,7 +210,7 @@ class CfgVehicles
 		varStackMax=30;
 		canBeSplit=1;
 	};
-	class CharcoalTablets: Edible_Base
+	class CharcoalTablets: Edible_Base // MAKES CHARCOAL TABLETS STACKABLE
 	{
 		scope=2;
 		varQuantityInit=12;
@@ -224,7 +219,7 @@ class CfgVehicles
 		varStackMax=30;
 		canBeSplit=1;
 	};
-	class PurificationTablets: Edible_Base
+	class PurificationTablets: Edible_Base // MAKES PURIFICATION TABLETS STACKABLE
 	{
 		scope=2;
 		varQuantityInit=12;
@@ -233,7 +228,7 @@ class CfgVehicles
 		varStackMax=30;
 		canBeSplit=1;
 	};
-	class PainkillerTablets: Edible_Base
+	class PainkillerTablets: Edible_Base  // MAKES PAINKILLERS STACKABLE
 	{
 		scope=2;
 		varQuantityInit=12;
@@ -241,5 +236,18 @@ class CfgVehicles
 		varQuantityMax=30;
 		varStackMax=30;
 		canBeSplit=1;
+	};
+	class Pelt_Base: Inventory_Base  // MAKES PELTS STACKABLE
+	{
+		scope=2;
+		varQuantityInit=1;
+		varQuantityMin=0;
+		varQuantityMax=4;
+		varStackMax=4;
+		canBeSplit=1;
+	};
+	class BearPelt: Pelt_Base
+	{
+		itemSize[]={7,4};
 	};
 };
