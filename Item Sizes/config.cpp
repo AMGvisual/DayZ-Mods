@@ -55,7 +55,6 @@ class CfgVehicles
 	class Binoculars: ItemOptics
 	{
 		itemSize[]={3,2};
-		weight=245;
 	};
 	class Flashlight: Inventory_Base
 	{
@@ -80,8 +79,6 @@ class CfgVehicles
 	class LeatherSewingKit: Inventory_Base
 	{
 		itemSize[]={3,2};
-		displayName="Leather Kit";
-		descriptionShort="A kit containing all the necessary tools used for tanning and stitching leather as well as patching various items";
 	};
 	class ImprovisedFishingRod: FishingRod_Base_New
 	{
@@ -102,7 +99,6 @@ class CfgVehicles
 	class PersonalRadio: Transmitter_Base
 	{
 		itemSize[]={1,2};
-		weight=0.05;
 	};
 	class Bark_ColorBase: Inventory_Base
 	{
@@ -136,14 +132,6 @@ class CfgVehicles
 	{
 		itemSize[]={1,2};
 	};
-	class Canteen: Bottle_Base
-	{
-		inventorySlot[]=
-		{
-			"WaterBottle",
-			"Belt_Left"
-		};
-	};
 	class Stone: Inventory_Base
 	{
 		itemSize[]={2,2};
@@ -176,16 +164,6 @@ class CfgVehicles
 		};
 		itemSize[]={1,2};
 	};
-	class WoodenPlank: Inventory_Base
-	{
-		itemSize[]={2,6};
-		varStackMax=20;
-	};
-	class Fabric: Inventory_Base
-	{
-		itemSize[]={3,4};
-		varQuantityMax=20;
-	};
 	class FirstAidKit: Container_Base
 	{
 		itemSize[]={3,3};
@@ -199,7 +177,25 @@ class CfgVehicles
 	{
 		itemSize[]={2,1};
 	};
-	class TetracyclineAntibiotics: Edible_Base // MAKES ANTIBIOTICS STACKABLE
+	class Canteen: Bottle_Base // ALLOWS CANTEEN TO ATTACH TO BELT
+	{
+		inventorySlot[]=
+		{
+			"WaterBottle",
+			"Belt_Left"
+		};
+	};
+	class WoodenPlank: Inventory_Base
+	{
+		itemSize[]={2,6};
+		varStackMax=20;
+	};
+	class Fabric: Inventory_Base
+	{
+		itemSize[]={3,4};
+		varQuantityMax=20;
+	};
+	class TetracyclineAntibiotics: Edible_Base 
 	{
 		scope=2;
 		displayName="Tetracycline Antibiotics";
@@ -210,7 +206,7 @@ class CfgVehicles
 		varStackMax=30;
 		canBeSplit=1;
 	};
-	class CharcoalTablets: Edible_Base // MAKES CHARCOAL TABLETS STACKABLE
+	class CharcoalTablets: Edible_Base 
 	{
 		scope=2;
 		varQuantityInit=12;
@@ -219,7 +215,7 @@ class CfgVehicles
 		varStackMax=30;
 		canBeSplit=1;
 	};
-	class PurificationTablets: Edible_Base // MAKES PURIFICATION TABLETS STACKABLE
+	class PurificationTablets: Edible_Base 
 	{
 		scope=2;
 		varQuantityInit=12;
@@ -228,7 +224,7 @@ class CfgVehicles
 		varStackMax=30;
 		canBeSplit=1;
 	};
-	class PainkillerTablets: Edible_Base  // MAKES PAINKILLERS STACKABLE
+	class PainkillerTablets: Edible_Base  
 	{
 		scope=2;
 		varQuantityInit=12;
