@@ -1,6 +1,6 @@
 class CfgPatches
 {
-	class TRZ_Admin_Crate
+	class Admin_Crate
 	{
 		units[]={};
 		weapons[]={};
