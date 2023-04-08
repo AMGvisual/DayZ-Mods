@@ -78,7 +78,7 @@ class CfgVehicles
 	};
 	class LeatherSewingKit: Inventory_Base
 	{
-		itemSize[]={3,2};
+		itemSize[]={2,2};
 	};
 	class ImprovisedFishingRod: FishingRod_Base_New
 	{
