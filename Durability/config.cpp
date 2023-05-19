@@ -107,6 +107,7 @@ class CfgVehicles
 				};
 			};
 		};
+	};
 	class Ammo_HuntingBolt: Ammunition_Base
 	{
 		class DamageSystem
@@ -119,6 +120,7 @@ class CfgVehicles
 				};
 			};
 		};
+	};
 	class Ammo_ImprovisedBolt_1: Ammunition_Base
 	{
 		class DamageSystem
@@ -131,6 +133,7 @@ class CfgVehicles
 				};
 			};
 		};
+	};
 	class Ammo_ImprovisedBolt_2: Ammunition_Base
 	{
 		class DamageSystem
