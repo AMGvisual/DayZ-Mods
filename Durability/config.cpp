@@ -1,6 +1,6 @@
 class CfgPatches
 {
-	class TRZ_Durability
+	class Durability_Fixes
 	{
 		units[]={};
 		weapons[]={};
