@@ -8,8 +8,7 @@ class CfgPatches
 		requiredAddons[]=
 		{
 			"DZ_Data",
-			"DZ_Weapons_Melee",
-			"DZ_Weapons_Magazines"
+			"DZ_Weapons_Melee"
 		};
 	};
 };
