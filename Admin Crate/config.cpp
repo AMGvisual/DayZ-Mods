@@ -20,7 +20,7 @@ class CfgVehicles
 		descriptionShort="Wooden crate for admins to store lots of things";
 		class Cargo
 		{
-			itemsCargoSize[]={10,500};
+			itemsCargoSize[]={10,500};  // 5,000 slot capacity by default - Edit this to your liking
 		};
 	};
 };
